@@ -1,5 +1,6 @@
 {
 	"name": "connect-valkey",
+	"description": "Valkey session store for connect-compatible servers (@fastify/session, express, connect, etc.)",
 	"version": "0.0.0-development",
 	"type": "module",
 	"exports": "./build/index.js",
