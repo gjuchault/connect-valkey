@@ -1,0 +1,44 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"include": ["./src/**/*.ts"],
+	"compilerOptions": {
+		"lib": [
+			"es2024",
+			"ESNext.Array",
+			"ESNext.Collection",
+			"ESNext.Iterator",
+			"ESNext.Promise"
+		],
+		"module": "preserve",
+		"target": "es2022",
+		"moduleResolution": "bundler",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+
+		"rootDir": "./src",
+		"outDir": "build",
+
+		// strict checks
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"declaration": true,
+
+		// we allow ts extensions on relative path imports, they will be rewritten
+		// with rewriteRelativeImportExtensions
+		"rewriteRelativeImportExtensions": true,
+		"noEmit": true
+	}
+}
