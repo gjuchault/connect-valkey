@@ -11,7 +11,8 @@
 		"rmrf",
 		"ryansonshine",
 		"socio",
-		"tsdoc"
+		"tsdoc",
+		"valkey"
 	],
 	"flagWords": [],
 	"ignorePaths": [
