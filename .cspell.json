@@ -3,13 +3,15 @@
 	"language": "en",
 	"words": [
 		"bahmutov",
+		"connect-valkey",
 		"degit",
 		"esbuild",
-		"connect-valkey",
+		"nillable",
 		"octocat",
 		"outdir",
 		"rmrf",
 		"ryansonshine",
+		"sess",
 		"socio",
 		"tsdoc",
 		"valkey"

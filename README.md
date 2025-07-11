@@ -5,3 +5,5 @@
 ![GitHub Workflow Status](https://github.com/gjuchault/connect-valkey/actions/workflows/typescript-library-starter.yml/badge.svg?branch=main)
 
 Valkey session store for connect-compatible servers (@fastify/session, express, connect, etc.)
+
+Most of it is adapted from [connect-redis](https://github.com/tj/connect-redis)
