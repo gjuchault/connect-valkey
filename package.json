@@ -54,7 +54,7 @@
 		"express-session": "^1.18.1",
 		"is-main": "^0.4.0",
 		"rimraf": "^6.0.1",
-		"semantic-release": "^24.2.6"
+		"semantic-release": "^24.2.7"
 	},
 	"config": {
 		"commitizen": {
